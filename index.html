@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Tree</title>
+    <link rel="shortcut icon" href="picture/pixil-frame-0 (1).png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<div id="background">
+<video loop autoplay muted>
+    <source src="videos/4825777-hd_1920_1080_30fps.mp4" type="video/mp4">
+</video>
+</div>
+<body class="min-h-screen text-gray-100">
+    <!-- Header com navegação -->
+    <header class="header-blur fixed w-full top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center mb-4 md:mb-0">
+                    <svg class="w-10 h-10 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                    <img src="picture/pixil-frame-0 (1).png" alt="logo">
+                    </svg>
+                    <span class="ml-2 text-xl font-bold text-green-400">Save The Tree</span>
+                </div>
+                
+                <!-- Navegação Principal -->
+                <nav class="flex flex-wrap justify-center mb-4 md:mb-0">
+                    <a href="index.html" class="px-3 py-2 mx-1 text-sm md:text-base hover:text-green-400 transition-colors active-nav">Início</a>
+                    <a href="DesmatamentoH.html" class="px-3 py-2 mx-1 text-sm md:text-base hover:text-green-400 transition-colors">História do Desmatamento</a>
+                    <a href="Desmatamentoy.html" class="px-3 py-2 mx-1 text-sm md:text-base hover:text-green-400 transition-colors">Previsão Futura</a>
+                    <a href="mundoINT.html" target="_blank" class="px-3 py-2 mx-1 text-sm md:text-base hover:text-green-400 transition-colors">Mundo Interativo</a>
+                </nav>
+                
+                <!-- Redes Sociais -->
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-green-400 transition-colors" aria-label="Instagram">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-green-400 transition-colors" aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-green-400 transition-colors" aria-label="Facebook">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-green-400 transition-colors" aria-label="YouTube">
+                        <i class="fab fa-youtube text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container mx-auto px-4 pt-32 pb-16">
+        <section id="home" class="mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-green-400 text-center">Combatendo o Desmatamento</h1>
+            
+            <!-- Galeria de Imagens -->
+            <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <svg class="w-full h-64 bg-green-900 p-4" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Árvores sendo cortadas -->
+                        <rect x="0" y="70" width="200" height="30" fill="#8B4513"/>
+                        <rect x="20" y="60" width="10" height="10" fill="#8B4513"/>
+                        <polygon points="25,20 10,60 40,60" fill="#2E8B57"/>
+                        <rect x="22" y="60" width="6" height="20" fill="#8B4513"/>
+                        
+                        <rect x="70" y="50" width="10" height="20" fill="#8B4513"/>
+                        <line x1="80" y1="50" x2="100" y2="30" stroke="#8B4513" stroke-width="2"/>
+                        <line x1="70" y1="50" x2="50" y2="30" stroke="#8B4513" stroke-width="2"/>
+                        
+                        <rect x="140" y="60" width="10" height="10" fill="#8B4513"/>
+                        <polygon points="145,30 130,60 160,60" fill="#2E8B57"/>
+                        <rect x="142" y="60" width="6" height="10" fill="#8B4513"/>
+                        
+                        <circle cx="180" cy="30" r="10" fill="#FF6347"/>
+                        <text x="100" y="90" text-anchor="middle" fill="white" font-size="8">Desmatamento em Progresso</text>
+                    </svg>
+                    <div class="p-4 bg-green-900 bg-opacity-80">
+                        <h3 class="font-semibold">Desmatamento na Amazônia</h3>
+                        <p class="text-sm text-gray-300">Áreas críticas de perda florestal</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <svg class="w-full h-64 bg-green-900 p-4" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Área desmatada -->
+                        <rect x="0" y="70" width="200" height="30" fill="#8B4513"/>
+                        <line x1="10" y1="70" x2="10" y2="60" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="30" y1="70" x2="30" y2="55" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="50" y1="70" x2="50" y2="58" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="70" y1="70" x2="70" y2="62" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="90" y1="70" x2="90" y2="56" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="110" y1="70" x2="110" y2="60" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="130" y1="70" x2="130" y2="58" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="150" y1="70" x2="150" y2="63" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="170" y1="70" x2="170" y2="59" stroke="#8B4513" stroke-width="4"/>
+                        <line x1="190" y1="70" x2="190" y2="61" stroke="#8B4513" stroke-width="4"/>
+                        
+                        <circle cx="40" cy="30" r="15" fill="#FF6347"/>
+                        <text x="100" y="90" text-anchor="middle" fill="white" font-size="8">Consequências do Desmatamento</text>
+                    </svg>
+                    <div class="p-4 bg-green-900 bg-opacity-80">
+                        <h3 class="font-semibold">Impacto Ambiental</h3>
+                        <p class="text-sm text-gray-300">Consequências para o ecossistema</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <svg class="w-full h-64 bg-green-900 p-4" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Reflorestamento -->
+                        <rect x="0" y="70" width="200" height="30" fill="#8B4513"/>
+                        <polygon points="25,30 10,70 40,70" fill="#2E8B57"/>
+                        <rect x="22" y="70" width="6" height="10" fill="#8B4513"/>
+                        
+                        <polygon points="65,40 50,70 80,70" fill="#2E8B57"/>
+                        <rect x="62" y="70" width="6" height="10" fill="#8B4513"/>
+                        
+                        <polygon points="105,35 90,70 120,70" fill="#2E8B57"/>
+                        <rect x="102" y="70" width="6" height="10" fill="#8B4513"/>
+                        
+                        <polygon points="145,45 130,70 160,70" fill="#2E8B57"/>
+                        <rect x="142" y="70" width="6" height="10" fill="#8B4513"/>
+                        
+                        <polygon points="185,25 170,70 200,70" fill="#2E8B57"/>
+                        <rect x="182" y="70" width="6" height="10" fill="#8B4513"/>
+                        
+                        <text x="100" y="90" text-anchor="middle" fill="white" font-size="8">Reflorestamento e Recuperação</text>
+                    </svg>
+                    <div class="p-4 bg-green-900 bg-opacity-80">
+                        <h3 class="font-semibold">Soluções Sustentáveis</h3>
+                        <p class="text-sm text-gray-300">Iniciativas de reflorestamento</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Texto Explicativo -->
+            <div class="bg-green-900 bg-opacity-80 p-6 rounded-lg shadow-lg mb-12">
+                <h2 class="text-2xl font-bold mb-4 text-green-400">Nossa Missão</h2>
+                <p class="mb-4 leading-relaxed">
+                    Este site foi criado com o intuito de mostrar as escalas do desmatamento no decorrer dos anos, mostrar quanto o desmatamento vai se agravar e mostrar um mundo interativo que fale sobre o desmatamento mundial. Nosso objetivo é conscientizar as pessoas do quão grave e qual ofensivo o desmatamento é para o meio ambiente, Todo esse site está baseado em diversas pesquisas de diversos sites e diversos pesquisadores, temos dois documentários importantes sobre o meio ambiente abaixo. Aproveitem o site e conscientizem-se que o meio ambiente necessita de preservação e cuidado.
+                </p>
+                <p class="mb-4 leading-relaxed">
+                    O desmatamento é uma das maiores ameaças ambientais da atualidade, contribuindo significativamente para as mudanças climáticas, perda de biodiversidade e desequilíbrio dos ecossistemas. Através de dados científicos, análises históricas e previsões futuras, buscamos apresentar um panorama completo sobre esta crise ambiental.
+                </p>
+                <p class="leading-relaxed">
+                    Convidamos você a explorar nosso conteúdo, conhecer as causas e consequências do desmatamento, e descobrir como pode contribuir para um futuro mais sustentável. Juntos, podemos fazer a diferença na proteção de nossas florestas e na preservação da vida em nosso planeta.
+                </p>
+            </div>
+            
+            <!-- Documentários Recomendados -->
+            <h2 class="text-2xl font-bold mb-6 text-green-400">Documentários Recomendados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="https://www.youtube.com/watch?v=P7x1bNZdYZ8&ab_channel=WatchIt%21-ReportagenseDocument%C3%A1rios" target="_blank" class="documentary-link block bg-green-900 bg-opacity-80 rounded-lg overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-film text-green-400 text-2xl mr-3"></i>
+                            <h3 class="text-xl font-semibold">Documentário - Aquecimento global efeito estufa</h3>
+                        </div>
+                        <p class="text-gray-300 mb-4">Um olhar profundo sobre a maior floresta tropical do mundo e os desafios que enfrenta diante do desmatamento acelerado.</p>
+                        <div class="flex items-center text-green-400">
+                            <span>Assistir agora</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://www.youtube.com/watch?v=Yo3xbzSbcCE&ab_channel=CanalNostalgia" target="_blank" class="documentary-link block bg-green-900 bg-opacity-80 rounded-lg overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-film text-green-400 text-2xl mr-3"></i>
+                            <h3 class="text-xl font-semibold">Entenda o Desmatamento na AMAZÔNIA de um jeito SIMPLES</h3>
+                        </div>
+                        <p class="text-gray-300 mb-4">Documentário premiado que revela o impacto global do desmatamento e apresenta soluções inovadoras para combatê-lo.</p>
+                        <div class="flex items-center text-green-400">
+                            <span>Assistir agora</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="header-blur py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">© 2023 - 2025 Save The Tree, por Juan patrick - Todos os direitos reservados</p>
+            <p class="text-xs mt-2 text-gray-400">Juntos pela preservação das nossas florestas</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navegação ativa
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    navLinks.forEach(item => item.classList.remove('active-nav'));
+                    this.classList.add('active-nav');
+                });
+            });
+            
+            // Responsividade para dispositivos móveis
+            const checkScreenSize = () => {
+                const header = document.querySelector('header');
+                if (window.innerWidth < 768) {
+                    header.classList.add('pb-2');
+                } else {
+                    header.classList.remove('pb-2');
+                }
+            };
+            
+            window.addEventListener('resize', checkScreenSize);
+            checkScreenSize();
+        });
+    </script>
+</body>
+</html>

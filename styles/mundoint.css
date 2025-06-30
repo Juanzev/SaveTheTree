@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.mapa-responsivo {
+  width: 100vw;       /* 100% da largura da viewport */
+  height: 100vh;      /* 100% da altura da viewport */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.mapa-responsivo iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}

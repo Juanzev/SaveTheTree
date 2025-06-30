@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="picture/pixil-frame-0 (1).png" type="image/x-icon">
+    <title>Save The Tree</title>
+    <link rel="stylesheet" href="styles/Previsãofutura.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="bg-green-800 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="picture/pixil-frame-0 (1).png" alt="Logo">
+                    <path fill-rule="evenodd" d="M4.382 5.968a1 1 0 0 1 1.316.555l1.364 3.327a1 1 0 0 1-.554 1.316l-3.327 1.364a1 1 0 0 1-1.316-.554L.501 8.65a1 1 0 0 1 .554-1.316l3.327-1.364zm11.236 0a1 1 0 0 0-1.316.555l-1.364 3.327a1 1 0 0 0 .554 1.316l3.327 1.364a1 1 0 0 0 1.316-.554l1.364-3.327a1 1 0 0 0-.554-1.316l-3.327-1.364zM10 2a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm0 10a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0v-4a1 1 0 0 1 1-1z" clip-rule="evenodd"></path>
+                </svg>
+                <span class="font-bold text-xl">Save The Tree</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="hover:text-green-200 transition-colors">Home</a>
+                <a href="#importancia" class="hover:text-green-200 transition-colors">Importância</a>
+                <a href="#estatisticas" class="hover:text-green-200 transition-colors">Estatísticas</a>
+                <a href="#futuro" class="hover:text-green-200 transition-colors">Futuro</a>
+                <a href="#acao" class="hover:text-green-200 transition-colors">Como Agir</a>
+            </div>
+                <button id="menu-toggle" class="md:hidden">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd" />
+                </svg>
+                </button>
+            </div>
+
+<!-- Menu Mobile -->
+    <div id="mobile-menu" class="md:hidden hidden flex flex-col space-y-4 px-4 pb-4 bg-green-800 text-white">
+        <a href="index.html" class="hover:text-green-200 transition-colors">Home</a>
+        <a href="#importancia" class="hover:text-green-200 transition-colors">Importância</a>
+        <a href="#estatisticas" class="hover:text-green-200 transition-colors">Estatísticas</a>
+        <a href="#futuro" class="hover:text-green-200 transition-colors">Futuro</a>
+        <a href="#acao" class="hover:text-green-200 transition-colors">Como Agir</a>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Previsão do Desmatamento até 2045</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto drop-shadow-md">Página dedicada a exibir uma projeção do desmatamento no Brasil entre 2025 e 2045.</p>
+            <div class="mt-8">
+                <a href="#acao" class="btn-primary px-8 py-3 rounded-full text-white font-medium text-lg inline-block">Como Ajudar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section id="importancia" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="picture/python_logo-removebg-preview.png" alt="Logo Python" class="w-full h-auto max-w-md mx-auto animate-wiggle">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold mb-6 text-green-800">Por que foi Criado uma Simulação do Desmatamento Futuro com Python</h2>
+                    <p class="mb-4 text-lg">A simulação do desmatamento futuro foi desenvolvida com o objetivo de conscientizar sobre os impactos ambientais que o Brasil pode enfrentar nas próximas décadas, caso o ritmo atual de destruição das florestas continue. Utilizamos Python como ferramenta para criar essa projeção devido à sua capacidade de lidar com dados, realizar cálculos e gerar representações visuais de forma eficiente.</p>
+                    <p class="mb-4 text-lg">Com essa abordagem, é possível visualizar cenários prováveis entre os anos de 2025 e 2045, destacando o avanço potencial do desmatamento em escala nacional. A linguagem Python permite integrar dados reais, estatísticas ambientais e projeções matemáticas, tornando o resultado mais confiável e acessível.</p>
+                    <p class="mb-6 text-lg">Ao apresentar esses dados de forma visual e interativa, esperamos promover a reflexão e incentivar ações preventivas. A tecnologia, quando usada com propósito, pode ser uma grande aliada na luta pela preservação ambiental e pelo futuro do nosso planeta.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <img src="picture/python_logo-removebg-preview.png" alt="Python Icon" class="w-9 h-6 mr-2">
+                            <span><code>import matplotlib.pyplot as plt</code></span>
+                        </div>
+                        <div class="flex items-center">
+                            <img src="picture/python_logo-removebg-preview.png" alt="python icon"
+                            class="w-9 h-6 mr-2">
+                            <span><code>import numpy as np</code></span>
+                        </div>
+                        <div class="flex items-center">
+                            <img src="picture/python_logo-removebg-preview.png" alt="python icon"
+                            class="w-9 h-6 mr-2">
+                            <span><code>import pandas as pd</code></span>
+                        </div>
+                        <div class="flex items-center">
+                            <img src="picture/python_logo-removebg-preview.png" alt="python icon"
+                            class="w-9 h-6 mr-2">
+                            <span><code>from sklearn.linear_model import LinearRegression</code></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="estatisticas" class="py-16 bg-green-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-green-800">Bibliotecas Usadas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md stats-item">
+                    <div class="text-4xl font-bold text-green-700 mb-2">matplotlib.pylot</div>
+                    <h3 class="text-xl font-semibold mb-2">Matplotlib é uma biblioteca para fazer gráficos e visualizações.</h3>
+                    <p class="text-gray-600">✅ Gera gráficos de linha, barra, pizza, dispersão etc.<br>
+                    ✅ Muito útil para mostrar tendências e padrões nos dados. <br>
+                    📊 Cria gráficos	De linha, barra, pizza, dispersão, histograma etc. <br>
+                    🧠 Simples de usar <br>
+                    🎯 Personalizável <br>
+                    🔁 Funciona com pandas e numpy <br>
+                    💻 Visualiza dados de IA/ML</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md stats-item">
+                    <div class="text-4xl font-bold text-green-700 mb-2">pandas</div>
+                    <h3 class="text-xl font-semibold mb-2">Pandas é usada para analisar e manipular dados em tabelas, como se fossem planilhas do Excel.</h3>
+                    <p class="text-gray-600">✅ Trabalha com DataFrames (tabelas com colunas e linhas). <br>
+                    ✅ Facilita leitura de arquivos como CSV ou Excel.<br>
+                    ✅ Ideal para limpar, organizar e visualizar dados. <br>
+                    📊 Trabalha com tabelas (DataFrames) <br>
+                    📥 Importa dados com facilidade <br>
+                    🔍 Filtra dados com rapidez <br>
+                    🧮 Faz cálculos rápidos <br>
+                    🧹 Limpa dados bagunçados <br>
+                    🔄 Agrupa e resume dados <br>
+                    📈 Integra com Matplotlib <br>
+                    ⏱️ Alta performance <br>
+                    🔗 Integra com outras libs
+                </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md stats-item">
+                    <div class="text-4xl font-bold text-green-700 mb-2">from sklearn.linear_model import LinearRegression</div>
+                    <h3 class="text-xl font-semibold mb-2">importa o modelo de Regressão Linear da biblioteca scikit-learn, usada para prever valores numéricos com base em dados existentes.</h3>
+                    <p class="text-gray-600">📉 Ela tenta encontrar a melhor linha que se ajusta aos seus dados. <br>
+                    📈 É usada quando você quer prever um valor contínuo, como temperatura, preço, ou área desmatada. <br>
+                    🤖 O modelo "aprende" com dados antigos para prever o futuro.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md stats-item">
+                    <div class="text-4xl font-bold text-green-700 mb-2">numpy</div>
+                    <h3 class="text-xl font-semibold mb-2">NumPy (Numerical Python) é uma biblioteca para trabalhar com números, vetores e matrizes de forma eficiente.</h3>
+                    <p class="text-gray-600">✅ Usado para fazer cálculos matemáticos rápidos. <br>
+                    ✅ Trabalha com arrays (vetores e matrizes) em vez de listas comuns. <br>
+                    ✅ Base para muitas outras bibliotecas (incluindo pandas e scikit-learn).</p>
+                </div>
+            </div>
+            <div class="mt-12 bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-4 text-green-800">Impacto do Desmatamento</h3>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/2">
+                        <div class="h-64 bg-gradient-to-r from-green-700 to-green-500 rounded-lg relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <svg class="w-40 h-40 text-white opacity-20" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white p-4">
+                                <h4 class="font-bold">A Floresta Amazônica Respira Por Todos Nós</h4>
+                                <p class="text-sm">🌳 A Floresta Amazônica produz cerca de 20% do oxigênio do planeta e armazena bilhões de toneladas de carbono, ajudando a frear o aquecimento global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="h-64 bg-gradient-to-r from-yellow-700 to-yellow-500 rounded-lg relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <svg class="w-40 h-40 text-white opacity-20" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white p-4">
+                                <h4 class="font-bold">Impacto nas chuvas</h4>
+                                <p class="text-sm">🌧️ O desmatamento reduz a umidade no ar, causando seca e redução das chuvas em várias regiões do Brasil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Section (Placeholder) -->
+<!-- Future Section -->
+<section id="futuro" class="py-16 bg-white">
+<div class="w-full px-4">
+    <div class="p-8 rounded-lg">
+        <div class="flex justify-center">
+        <img
+        src="picture/previsão desmatamento.png"
+        alt="Gráfico desmatamento"
+        class="w-[95%] sm:w-[90%] md:w-[90%] lg:w-[70%] xl:w-[70%] h-auto max-w-none"
+        />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Action Section -->
+    <section id="acao" class="py-16 bg-green-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Como Você Pode Ajudar</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-green-700 p-6 rounded-lg hover:bg-green-600 transition-colors">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Plante Árvores</h3>
+                    <p class="text-center">Participe de programas de reflorestamento ou plante árvores em sua comunidade.</p>
+                </div>
+                <div class="bg-green-700 p-6 rounded-lg hover:bg-green-600 transition-colors">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Eduque-se</h3>
+                    <p class="text-center">Aprenda mais sobre a importância das florestas e compartilhe esse conhecimento.</p>
+                </div>
+                <div class="bg-green-700 p-6 rounded-lg hover:bg-green-600 transition-colors">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Apoie ONGs</h3>
+                    <p class="text-center">Contribua com organizações que trabalham pela preservação ambiental.</p>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <h3 class="text-2xl font-bold mb-6">Junte-se ao Movimento</h3>
+                <div class="max-w-md mx-auto">
+                    <div class="flex">
+                        <input type="email" placeholder="Seu e-mail" class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none text-gray-800" />
+                        <button class="bg-green-600 hover:bg-green-500 px-6 py-3 rounded-r-lg font-medium transition-colors">Inscrever</button>
+                    </div>
+                    <p class="mt-2 text-sm text-green-200">Receba dicas e informações sobre como ajudar o meio ambiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <img src="picture/pixil-frame-0 (1).png" alt="Logo">
+                            <path fill-rule="evenodd" d="M4.382 5.968a1 1 0 0 1 1.316.555l1.364 3.327a1 1 0 0 1-.554 1.316l-3.327 1.364a1 1 0 0 1-1.316-.554L.501 8.65a1 1 0 0 1 .554-1.316l3.327-1.364zm11.236 0a1 1 0 0 0-1.316.555l-1.364 3.327a1 1 0 0 0 .554 1.316l3.327 1.364a1 1 0 0 0 1.316-.554l1.364-3.327a1 1 0 0 0-.554-1.316l-3.327-1.364zM10 2a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm0 10a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0v-4a1 1 0 0 1 1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="font-bold text-xl">Save The Tree</span>
+                    </div>
+                    <p class="mt-2 text-green-300">Juntos pela preservação do nosso planeta</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-semibold mb-3">Links Rápidos</h4>
+                        <ul class="space-y-2 text-green-300">
+                            <li><a href="#inicio" class="hover:text-white transition-colors">Início</a></li>
+                            <li><a href="#importancia" class="hover:text-white transition-colors">Importância</a></li>
+                            <li><a href="#estatisticas" class="hover:text-white transition-colors">Estatísticas</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-3">Fontes</h4>
+                        <ul class="space-y-2 text-green-300">
+                            <li><a href="https://brasil.mapbiomas.org/" class="hover:text-white transition-colors">Map Biomas</a></li>
+                            <li><a href="https://www.ibge.gov.br/estatisticas/multidominio/meio-ambiente.html" class="hover:text-white transition-colors">IBGE</a></li>
+                            <li><a href="https://observatorioflorestal.org.br/" class="hover:text-white transition-colors">OCF (Observatório do Código Florestal)</a></li>
+                            <li><a href="https://energiaeambiente.org.br/" class="hover:text-white transition-colors">IEMA (Instituto de Energia e Meio Ambiente)</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-3">Contato</h4>
+                        <ul class="space-y-2 text-green-300">
+                            <li>SaveTheTree@gmail.com</li>
+                            <li>+55 (92) xxxx-xxxx</li>
+                            <li>Manaus (AM), Brasil</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-green-700 mt-8 pt-6 text-center text-green-400">
+                <p>&copy; 2023 - 2025 Save The Tree, Por Juan Patrick Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/PrevisãoDesmatamento.js"></script>
+
+</body>
+</html>

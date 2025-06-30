@@ -1,0 +1,61 @@
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8faf7;
+            color: #2c3e50;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='600' viewBox='0 0 1200 600'%3E%3Crect width='1200' height='600' fill='%23234c3a'/%3E%3Cpath d='M600,500 L650,400 L700,500 L750,350 L800,500 L850,300 L900,500 L950,250 L1000,500 L1050,200 L1100,500 L1150,150 L1200,500 L1200,600 L0,600 L0,500 L50,450 L100,500 L150,400 L200,500 L250,350 L300,500 L350,300 L400,500 L450,250 L500,500 L550,400 Z' fill='%23143325'/%3E%3C/svg%3E");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+        }
+        
+        .leaf {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        
+        .future-section {
+            background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.9) 100%), 
+                        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='300' viewBox='0 0 600 300'%3E%3Crect width='600' height='300' fill='%23f8faf7'/%3E%3Cpath d='M0,100 C150,150 450,50 600,100 L600,300 L0,300 Z' fill='%23e6f0e6' opacity='0.5'/%3E%3C/svg%3E");
+            background-size: cover;
+            border: 2px dashed #3a7561;
+        }
+        
+        .btn-primary {
+            background-color: #2d6a4f;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #1b4332;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 106, 79, 0.3);
+        }
+        
+        .stats-item {
+            border-left: 4px solid #2d6a4f;
+            transition: all 0.3s ease;
+        }
+        
+        .stats-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes wiggle {
+        0%, 100% { transform: rotate(-12deg); }
+        50% { transform: rotate(4deg); }
+}
+.animate-wiggle {
+    animation: wiggle 5s ease-in-out infinite;
+}
