@@ -10,44 +10,40 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="bg-green-800 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <img src="picture/pixil-frame-0 (1).png" alt="Logo">
-                    <path fill-rule="evenodd" d="M4.382 5.968a1 1 0 0 1 1.316.555l1.364 3.327a1 1 0 0 1-.554 1.316l-3.327 1.364a1 1 0 0 1-1.316-.554L.501 8.65a1 1 0 0 1 .554-1.316l3.327-1.364zm11.236 0a1 1 0 0 0-1.316.555l-1.364 3.327a1 1 0 0 0 .554 1.316l3.327 1.364a1 1 0 0 0 1.316-.554l1.364-3.327a1 1 0 0 0-.554-1.316l-3.327-1.364zM10 2a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm0 10a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0v-4a1 1 0 0 1 1-1z" clip-rule="evenodd"></path>
-                </svg>
-                <span class="font-bold text-xl">Save The Tree</span>
+                <img src="picture/pixil-frame-0 (1).png" alt="logo">
+                <span class="text-xl font-bold text-gray-800">Save The Tree</span>
             </div>
-            <div class="hidden md:flex space-x-8">
-                <a href="index.html" class="hover:text-green-200 transition-colors">Home</a>
-                <a href="#importancia" class="hover:text-green-200 transition-colors">Importância</a>
-                <a href="#estatisticas" class="hover:text-green-200 transition-colors">Estatísticas</a>
-                <a href="#futuro" class="hover:text-green-200 transition-colors">Futuro</a>
-                <a href="#acao" class="hover:text-green-200 transition-colors">Como Agir</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-green-600 transition">Início</a>
+                <a href="DesmatamentoH.html" class="text-gray-600 hover:text-green-600 transition">História do Desmatamento</a>
+                <a href="Desmatamentoy.html" class="text-gray-600 hover:text-green-600 transition">Previsão Futura</a>
+                <a href="mundoINT.html" class="text-gray-600 hover:text-green-600 transition">Mundo Interativo</a>
             </div>
-                <button id="menu-toggle" class="md:hidden">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd" />
-                </svg>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-600 hover:text-green-600 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
                 </button>
             </div>
-
-<!-- Menu Mobile -->
-    <div id="mobile-menu" class="md:hidden hidden flex flex-col space-y-4 px-4 pb-4 bg-green-800 text-white">
-        <a href="index.html" class="hover:text-green-200 transition-colors">Home</a>
-        <a href="#importancia" class="hover:text-green-200 transition-colors">Importância</a>
-        <a href="#estatisticas" class="hover:text-green-200 transition-colors">Estatísticas</a>
-        <a href="#futuro" class="hover:text-green-200 transition-colors">Futuro</a>
-        <a href="#acao" class="hover:text-green-200 transition-colors">Como Agir</a>
-    </div>
-</nav>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 px-4">
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-green-600">Início</a>
+            <a href="DesmatamentoH.html" class="block py-2 text-gray-600 hover:text-green-600">História do Desmatamento</a>
+            <a href="Desmatamentoy.html" class="block py-2 text-gray-600 hover:text-green-600">Previsão Futura</a>
+            <a href="mundoINT.html" class="block py-2 text-gray-600 hover:text-green-600">Mundo Interativo</a>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="inicio" class="hero-section flex items-center justify-center">
         <div class="text-center text-white">
-            <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Previsão do Desmatamento até 2045</h1>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl 
+           font-bold mb-4 drop-shadow-lg 
+           break-words text-center px-4">Previsão do Desmatamento até 2045</h1>
             <p class="text-xl md:text-2xl max-w-2xl mx-auto drop-shadow-md">Página dedicada a exibir uma projeção do desmatamento no Brasil entre 2025 e 2045.</p>
             <div class="mt-8">
                 <a href="#acao" class="btn-primary px-8 py-3 rounded-full text-white font-medium text-lg inline-block">Como Ajudar</a>
@@ -127,7 +123,7 @@
                 </p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md stats-item">
-                    <div class="text-4xl font-bold text-green-700 mb-2">from sklearn.linear_model import LinearRegression</div>
+                    <div class="text-4xl font-bold text-green-700 mb-2">from sklearn.linear model import Linear Regression</div>
                     <h3 class="text-xl font-semibold mb-2">importa o modelo de Regressão Linear da biblioteca scikit-learn, usada para prever valores numéricos com base em dados existentes.</h3>
                     <p class="text-gray-600">📉 Ela tenta encontrar a melhor linha que se ajusta aos seus dados. <br>
                     📈 É usada quando você quer prever um valor contínuo, como temperatura, preço, ou área desmatada. <br>
@@ -281,7 +277,7 @@
                 </div>
             </div>
             <div class="border-t border-green-700 mt-8 pt-6 text-center text-green-400">
-                <p>&copy; 2023 - 2025 Save The Tree, Por Juan Patrick Todos os direitos reservados.</p>
+                <p>&copy; 2024 - 2025 Save The Tree, Por Juan Patrick Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
